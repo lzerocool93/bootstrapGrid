@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bootstrap grid</title>
+	<link rel="stylesheet" href="main.css">
+	<style>
+		.box1{
+			background:green; 
+		}
+		.box2{
+			background: yellow;
+		}
+		.box3{
+			background:brown; 
+		}
+		.box4{
+			background:pink; 
+		}
+		.box5{
+			background:brown;
+			color:#ccc;
+			font-size:18px; 
+			height:400px 
+		}
+		.box6{
+			background: yellow;
+			color:green;
+			font-size:20px;
+			font-style: italic;
+			height: 400px
+		}
+		.box7{
+			background: blue;
+			color:black;
+			font-size:15px;
+			text-align:center;
+			height: 400px; 
+		}
+	</style>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="row">
+			<div class="box1 col col-3 col-12-xs col-6-sm">Item 3</div>
+			<div class="box2 col col-9 col-12-xs col-6-sm">Item 9</div>
+		</div>
+		<div class="row">
+			<div class="box3 col col-6 col-12-xs col-10-sm">Item 6</div>
+			<div class="box4 col col-6 col-12-xs col-2-sm">Item 6</div>
+		</div>
+		<div class="row">
+			<div class="box5 col col-4-lg col-3-md  col-xs-12 ">
+				<h1>Title1</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, pariatur.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, dignissimos ipsa delectus at? Ea vel molestias aperiam nemo at ullam porro deserunt neque. Rerum unde odio obcaecati ad, totam amet!</p>
+			</div>
+			<div class="box6 col col-4-lg col-6-md  col-xs-12">
+				<h1>Title2</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ab adipisci aperiam distinctio eaque praesentium, facere, ipsam beatae doloribus enim sapiente temporibus ipsa tenetur incidunt vel eveniet dolore ratione minus quo! Veniam assumenda, illo eum debitis laborum inventore doloribus temporibus.</p>
+				<a href="#">Read more</a>
+			</div>
+			<div class="box7 col col-4-lg col-3-md  col-xs-12">
+				<h1>Title3</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, a!</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
